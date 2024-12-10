@@ -10,7 +10,6 @@ class Solution:
             profit = price - buy
             max_profit = max(max_profit, profit)
             if profit < 0:
-                profit = 0
                 buy = price
         return max_profit
 
